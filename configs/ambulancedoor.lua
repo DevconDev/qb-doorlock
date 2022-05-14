@@ -195,3 +195,73 @@ Config.DoorList['ambulancedoor-reception'] = {
     objName = 493136920,
     fixText = false,
 }
+
+-- mzmainleft created by Devcon
+Config.DoorList['ambulancedoor-mzmainleft'] = {
+    locked = false,
+    doors = {
+        {objName = 1624860328, objYaw = 82.371467590332, objCoords = vec3(-445.933228, -332.664429, 33.497341)},
+        {objName = 1624860328, objYaw = 262.40155029297, objCoords = vec3(-446.265442, -335.154083, 33.497341)}
+    },
+    distance = 1,
+    doorType = 'doublesliding',
+    doorRate = 1.0,
+    doorLabel = 'Main Left',
+    authorizedJobs = { ['ambulance'] = 0 },
+}
+
+-- mzmaincent created by Devcon
+Config.DoorList['ambulancedoor-mzmaincent'] = {
+    locked = false,
+    doors = {
+        {objName = 1624860328, objYaw = 82.399993896484, objCoords = vec3(-446.880249, -339.761963, 33.497341)},
+        {objName = 1624860328, objYaw = 262.40490722656, objCoords = vec3(-447.212311, -342.250671, 33.497341)}
+    },
+    distance = 2,
+    doorType = 'doublesliding',
+    doorRate = 1.0,
+    doorLabel = 'Main Center',
+    authorizedJobs = { ['ambulance'] = 0 },
+}
+
+-- mzmainright created by Devcon
+Config.DoorList['ambulancedoor-mzmainright'] = {
+    locked = false,
+    doors = {
+        {objName = 1624860328, objYaw = 81.995613098145, objCoords = vec3(-447.817108, -346.854156, 33.497341)},
+        {objName = 1624860328, objYaw = 263.00354003906, objCoords = vec3(-448.144867, -349.343384, 33.497341)}
+    },
+    distance = 2,
+    doorType = 'doublesliding',
+    doorRate = 1.0,
+    doorLabel = 'Main Right',
+    authorizedJobs = { ['ambulance'] = 0 },
+}
+
+-- mzmainside created by Devcon
+Config.DoorList['ambulancedoor-mzmainside'] = {
+    locked = false,
+    doors = {
+        {objName = 1624860328, objYaw = 172.99996948242, objCoords = vec3(-445.369141, -357.591278, 33.497341)},
+        {objName = 1624860328, objYaw = 352.00003051758, objCoords = vec3(-442.878326, -357.921143, 33.497341)}
+    },
+    distance = 2,
+    doorType = 'doublesliding',
+    doorRate = 1.0,
+    doorLabel = 'Side',
+    authorizedJobs = { ['ambulance'] = 0 },
+}
+
+-- pbmain created by Devcon
+Config.DoorList['ambulancedoor-pbmain'] = {
+    locked = false,
+    doors = {
+        {objName = 220394186, objYaw = 69.767250061035, objCoords = vec3(299.906281, -584.054077, 43.441959)},
+        {objName = 220394186, objYaw = 249.88534545898, objCoords = vec3(299.336609, -585.601318, 43.442272)}
+    },
+    distance = 2,
+    doorType = 'double',
+    doorRate = 1.0,
+    doorLabel = 'Main Door',
+    authorizedJobs = { ['ambulance'] = 0 },
+}
