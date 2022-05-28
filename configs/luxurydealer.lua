@@ -11,7 +11,7 @@ Config.DoorList['luxurydealer-luxgarage'] = {
     objCoords = vec3(-1237.843628, -338.194763, 37.607273),
     fixText = false,
     doorRate = 1.0,
-    distance = 2,
+    distance = 5,
 }
 
 -- luxmain created by Devcon
